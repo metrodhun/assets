@@ -1,0 +1,2 @@
+function handleQueueButton(){const e=document.querySelector('button[data-plyr="list"]'),t=document.querySelector(".plyr-queue-close");function n(){e&&e.classList.toggle("pressed"),document.documentElement.classList.toggle("is-queue")}(e||t)&&(e&&e.addEventListener("click",n),t&&t.addEventListener("click",n))}handleQueueButton();
+function handleVideoButton(){const e=document.querySelector('button[data-plyr="video"]');e&&e.addEventListener("click",(function(){e.classList.toggle("pressed"),document.documentElement.classList.toggle("is-videohide")}))}handleVideoButton();
